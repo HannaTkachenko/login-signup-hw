@@ -4,13 +4,11 @@ import Header from "./components/Header/";
 import Home from './pages/Home';
 import Login from './pages/Login';
 import SignUp from './pages/SignUp';
-
-
-
+import './App.module.scss'
 
 const App = () => {
   return (
-    <>
+   
       <BrowserRouter>
         <Header />
         <Routes>
@@ -19,7 +17,7 @@ const App = () => {
           <Route path="/signup" element={<SignUp />} />
         </Routes>
       </BrowserRouter>
-    </>
+    
   );
 };
 
