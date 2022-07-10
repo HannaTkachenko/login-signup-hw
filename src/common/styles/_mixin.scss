@@ -1,0 +1,6 @@
+@mixin text-style($fontSize){
+  color: white;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: $fontSize;
+}
