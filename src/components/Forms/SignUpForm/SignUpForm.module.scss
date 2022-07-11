@@ -1,4 +1,3 @@
-// @import  "./../../Forms/LoginForm/LoginForm.module.scss"
 .form {
   display: flex;
   flex-direction: column;
@@ -30,4 +29,9 @@
 
 .inputs>*{
   width: 50%;
+}
+
+.radio > Field {
+border: 1px solid white
+
 }

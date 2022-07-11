@@ -1,6 +1,7 @@
 import React from "react";
-import { Formik, Form } from "formik";
+import { Formik, Form, Field } from "formik";
 import WrappedInput from "../WrappedInput";
+import WrappedRadioInput from "./../WrappedRadioInput/index";
 import { SCHEMA_LOGIN } from "../../../utils/schemaValidation";
 import styles from "./SignUpForm.module.scss";
 
@@ -43,6 +44,8 @@ const SignUpForm = (props) => {
                 placeholder="Password confirmation"
               />
             </label>
+            <WrappedRadioInput />
+
             <input
               type="submit"
               value="Create account"

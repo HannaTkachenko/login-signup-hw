@@ -1,0 +1,30 @@
+@import './../../../common/styles/mixin';
+
+.container{
+margin: 0;
+width: 600px;
+
+}
+.radio {
+
+  margin: 20px 10px;
+  padding: 20px;
+  border: 1px solid white;
+
+  @include text-style(20px);
+  text-align: left;
+
+}
+
+.radio>h6 {
+  padding: 0;
+  margin: 2px;
+ 
+  @include text-style(12px);
+  font-weight: 400;
+  text-align: left;
+  position: relative;
+  left: 20px;
+
+
+}
