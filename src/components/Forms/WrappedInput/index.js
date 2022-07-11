@@ -7,7 +7,7 @@ const WrappedInput = (props) => {
   const { name, ...rest } = props;
   return (
     <label className={styles.label}>
-      <span className={styles.span}>{name}:</span>
+      
       <Field name={name}>
         {({ field, meta }) => {
           const inputStyles = cx(styles.input, {

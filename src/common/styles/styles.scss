@@ -1,0 +1,11 @@
+@import './../../common/styles/mixin';
+
+*{
+  box-sizing:border-box;
+}
+
+.title-login{
+  @include text-style(30px);
+  text-transform: uppercase;
+}
+

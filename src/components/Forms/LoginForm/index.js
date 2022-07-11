@@ -23,10 +23,10 @@ const LoginForm = (props) => {
             <WrappedInput name="email" placeholder="Email address" />
             <WrappedInput
               name="password"
-              type="password "
+              type="password"
               placeholder="Password"
             />
-            <input type="submit" value="login" />
+            <input type="submit" value="login" className={styles.input} />
           </Form>
         );
       }}
